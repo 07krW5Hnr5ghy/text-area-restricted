@@ -5,16 +5,23 @@
     align-items: center;
     border: 1px solid black;
     border-radius: 12px;
-    width: 200px;
+    padding: 10px;
 }
 .text-area{
     border: none;
     width: 100%;
+    resize: none;
 }
-.word-count-wrapper{
+.character-count-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: end;
     align-items: center;
     width: 100%;
+}
+.no-allowed{
+    border:1px solid red;
+}
+.text-limit{
+    color:red;
 }
